@@ -66,3 +66,5 @@ NSString *const XLFormRowDescriptorTypeButton = @"button";
 NSString *const XLFormRowDescriptorTypeInfo = @"info";
 NSString *const XLFormRowDescriptorTypeStepCounter = @"stepCounter";
 
+NSString *const XLFormRowDescriptorTypeLabel = @"label";
+

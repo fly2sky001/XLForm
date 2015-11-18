@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78E579791BFC2E5200D876D2 /* XLFormLabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E579771BFC2E5200D876D2 /* XLFormLabelCell.h */; };
+		78E5797A1BFC2E5200D876D2 /* XLFormLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E579781BFC2E5200D876D2 /* XLFormLabelCell.m */; };
 		E267FD7C1BE804E200F86B42 /* XLFormBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E267FD2C1BE804E200F86B42 /* XLFormBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E267FD7D1BE804E200F86B42 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E267FD2D1BE804E200F86B42 /* XLFormBaseCell.m */; };
 		E267FD7E1BE804E200F86B42 /* XLFormButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E267FD2E1BE804E200F86B42 /* XLFormButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,6 +88,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78E579771BFC2E5200D876D2 /* XLFormLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormLabelCell.h; sourceTree = "<group>"; };
+		78E579781BFC2E5200D876D2 /* XLFormLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormLabelCell.m; sourceTree = "<group>"; };
 		E267FD201BE8048900F86B42 /* XLForm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLForm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E267FD251BE8048900F86B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E267FD2C1BE804E200F86B42 /* XLFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormBaseCell.h; sourceTree = "<group>"; };
@@ -244,6 +248,8 @@
 				E267FD491BE804E200F86B42 /* XLFormTextFieldCell.m */,
 				E267FD4A1BE804E200F86B42 /* XLFormTextViewCell.h */,
 				E267FD4B1BE804E200F86B42 /* XLFormTextViewCell.m */,
+				78E579771BFC2E5200D876D2 /* XLFormLabelCell.h */,
+				78E579781BFC2E5200D876D2 /* XLFormLabelCell.m */,
 			);
 			name = Cell;
 			path = XL/Cell;
@@ -367,6 +373,7 @@
 				E267FDB01BE804E200F86B42 /* NSPredicate+XLFormAdditions.h in Headers */,
 				E267FDBC1BE804E200F86B42 /* XLFormTextView.h in Headers */,
 				E267FDC01BE804E200F86B42 /* XLFormValidationStatus.h in Headers */,
+				78E579791BFC2E5200D876D2 /* XLFormLabelCell.h in Headers */,
 				E267FDB41BE804E200F86B42 /* UIView+XLFormAdditions.h in Headers */,
 				E267FD8C1BE804E200F86B42 /* XLFormPickerCell.h in Headers */,
 				E267FDBE1BE804E200F86B42 /* XLFormRegexValidator.h in Headers */,
@@ -472,6 +479,7 @@
 				E267FD7D1BE804E200F86B42 /* XLFormBaseCell.m in Sources */,
 				E267FDA21BE804E200F86B42 /* XLFormViewController.m in Sources */,
 				E267FDB31BE804E200F86B42 /* NSString+XLFormAdditions.m in Sources */,
+				78E5797A1BFC2E5200D876D2 /* XLFormLabelCell.m in Sources */,
 				E267FD851BE804E200F86B42 /* XLFormDatePickerCell.m in Sources */,
 				E267FDAF1BE804E200F86B42 /* NSObject+XLFormAdditions.m in Sources */,
 				E267FD991BE804E200F86B42 /* XLFormTextFieldCell.m in Sources */,

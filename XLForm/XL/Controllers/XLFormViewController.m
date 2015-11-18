@@ -247,7 +247,8 @@
                                                XLFormRowDescriptorTypePicker : [XLFormPickerCell class],
                                                XLFormRowDescriptorTypeSlider : [XLFormSliderCell class],
                                                XLFormRowDescriptorTypeSelectorLeftRight : [XLFormLeftRightSelectorCell class],
-                                               XLFormRowDescriptorTypeStepCounter: [XLFormStepCounterCell class]
+                                               XLFormRowDescriptorTypeStepCounter: [XLFormStepCounterCell class],
+                                               XLFormRowDescriptorTypeLabel:[XLFormLabelCell class]
                                                } mutableCopy];
     });
     return _cellClassesForRowDescriptorTypes;
